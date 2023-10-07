@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="box buttons">
+      <input class="display" type="text" id="display">
+      <button onclick="getNumber('7')">7</button>
+      <button onclick="getNumber('8')">8</button>
+      <button onclick="getNumber('9')">9</button>
+      <button onclick="getOperator('+')">+</button>
+      <button onclick="getNumber('4')">4</button>
+      <button onclick="getNumber('5')">5</button>
+      <button onclick="getNumber('6')">6</button>
+      <button onclick="getOperator('-')">-</button>
+      <button onclick="getNumber('1')">1</button>
+      <button onclick="getNumber('2')">2</button>
+      <button onclick="getNumber('3')">3</button>
+      <button onclick="getOperator('*')">x</button>
+      <button onclick="clearDisplay()" class="red">C</button>
+      <button onclick="getNumber('0')">0</button>
+      <button onclick="equals()">=</button>
+      <button onclick="getOperator('/')">/</button>
+      <script src="index.js"></script>
+    </div>
+  </body> 
+</html> 
